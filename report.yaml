@@ -1,0 +1,42 @@
+push: true
+local: push
+services:
+
+  textom:
+    code: TXT
+    topic: report_TXT
+    nameKr: "TT"
+    description: ''
+
+  aiedutom:
+    code: AIE
+    topic: report_AIE
+    nameKr: "AED"
+    description: ''
+
+  edubig:
+    code: BSE
+    topic: report_BSE
+    nameKr: "BSE"
+    description: ''
+
+  push:
+    code: PUSH
+    topic: report_PUSH
+    nameKr: "TheIMC 푸시 서비스"
+    description: ''
+
+form:
+  service_name       : "push"
+  service_code       : "PUSH"
+  service_name_kr    : "TheIMC 푸시 서비스"
+  service_description: "TheIMC 통합 푸시 서비스입니다."
+  report_message     : "정상 동작중"
+  error_code         : 0
+  topic_name         : report_PUSH
+  invoked_at         : "cmn.getCurrentDateTime()"
+  invoked_ip         : "222.333.11.55"
+  invoded_file       : "${appRoot}/func.js"
+  invoked_function   : "no_function"
+  dev_lang           : "Node.js"
+  dev_hint           : "[MESSAGE] 서버가 정상적으로 동작 중인지 확인하세요."

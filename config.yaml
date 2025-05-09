@@ -1,0 +1,14 @@
+kafka:
+  address: 211.195.9.229
+  port: 9092
+
+slack:
+  webhookUrl: "https://hooks.slack.com/services/T04E75U9B3P/B04DVHU718X/"
+  query_interval_time_ms: 10000
+  query_recursive_interal_time_ms: 3600000
+  max_diff_day: 3
+  min_diff_hour:  4
+  max_count:  10
+
+monit:
+  address: 222.111.333.55

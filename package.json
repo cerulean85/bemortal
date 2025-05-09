@@ -1,0 +1,43 @@
+{
+  "name": "bemortal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2",
+    "app-root-path": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "js-yaml": "^4.1.0",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.0",
+    "kill-port": "^2.0.0",
+    "md5": "^2.3.0",
+    "md5-base64": "^0.0.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.1",
+    "mongoose-sequence": "^5.3.1",
+    "mysql2": "^2.3.3",
+    "ndjson": "^2.0.0",
+    "ndjson-parse": "^1.0.4",
+    "net": "^1.0.2",
+    "node-libcurl": "^2.3.4",
+    "node-schedule": "^2.1.0",
+    "package": "^1.0.1",
+    "request-ip": "^3.3.0",
+    "slack-node": "^0.1.8",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.7.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
