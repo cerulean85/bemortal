@@ -29,6 +29,8 @@
 4. 푸시 서버가 Kafka에서 메시지를 Pull 방식으로 수신
 5. 메신저를 통해 담당자에게 지연 알림 전송
 
+![image](https://github.com/user-attachments/assets/508d4ad2-fb5e-4d4b-8470-227834e34f5b)
+
 
 ### 성과
 ---
